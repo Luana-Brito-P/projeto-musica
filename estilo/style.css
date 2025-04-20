@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --cor0: #FAF5EF;
+    --cor1: #D8CFC4;
+    --cor2: #EBB15B;
+    --cor3: #C29E75;
+    --cor4: #2E2C2B;
+    --cor5: #b76f04;
+    --font-destaque: "Passion One", sans-serif;
+    --font-padrao:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: var(--cor3);
+    font-size: 1em;
+    font-family: var(--font-padrao);
+    font-weight: 500;
+}
+
+h1, h2 {
+    font-family: var(--font-destaque);
+    font-variant: small-caps;
+}
+
+a {
+    color:var(--cor0) ;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    background-color: var(--cor1);
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+    border-radius: 0px 0px 5px 5px;
+}
+
+header {
+
+    background-image: linear-gradient(to bottom ,var(--cor2) ,var(--cor5) );
+    min-height: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.427);
+}
+
+header > h1 {
+    font-size: 3em;
+    color:var(--cor0);
+    
+}
+
+header > p {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: var(--font-padrao);
+    color: var(--cor1);
+    padding-bottom: 20px;
+}
+
+
+section {
+    font-size: 20px;
+    
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+}
+
+section  h2 {
+    color: var(--cor0);
+    font-size: 2em;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+
+}
+
+section.imagem {
+    padding-left: 20px;
+    padding-top: 10vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section.imagem p {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.441);
+    background-repeat: no-repeat;
+    max-height: 50vh;
+    max-width: 300px;
+    padding: 10px;
+}
+
+section#img1{
+    background-image: url(/imagens/criancas2.jpg);
+    background-position: center center;
+    
+}
+
+section#img2 {
+    background-image: url(/imagens/estudos.webp);
+    background-position: left center;
+}
+
+section#img3 {
+    background-image: url(/imagens/bemestar.jpg);
+    background-position: center center;
+}
+
+section#img4 {
+    background-image: url(/imagens/grupo.png);
+    background-position: center center;
+}
+footer {
+    padding: 10px;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-align: center;
+}
