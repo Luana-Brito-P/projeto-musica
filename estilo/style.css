@@ -121,23 +121,23 @@ section.imagem p {
 }
 
 section#img1{
-    background-image: url(/imagens/criancas2.jpg);
+    background-image: url(../imagens/criancas2.jpg);
     background-position: center center;
     
 }
 
 section#img2 {
-    background-image: url(/imagens/estudos.webp);
+    background-image: url(../imagens/estudos.webp);
     background-position: left center;
 }
 
 section#img3 {
-    background-image: url(/imagens/bemestar.jpg);
+    background-image: url(../imagens/bemestar.jpg);
     background-position: center center;
 }
 
 section#img4 {
-    background-image: url(/imagens/grupo.png);
+    background-image: url(../imagens/grupo.png);
     background-position: center center;
 }
 footer {
